@@ -1,0 +1,12 @@
+Мелодия:
+NOTE_C5,
+NOTE_F5, NOTE_F5, NOTE_G5, NOTE_F5, NOTE_E5,
+NOTE_D5, NOTE_D5, NOTE_D5,
+NOTE_G5, NOTE_G5, NOTE_A5, NOTE_G5, NOTE_F5,
+NOTE_E5, NOTE_C5, NOTE_C5,
+NOTE_A5, NOTE_A5, NOTE_AS5, NOTE_A5, NOTE_G5,
+NOTE_F5, NOTE_D5, NOTE_C5, NOTE_C5,
+NOTE_D5, NOTE_G5, NOTE_E5, NOTE_F5
+
+Конвертированная мелодия для клавиш:
+i[[][pooo]].][pii..;.][oiio]p[
