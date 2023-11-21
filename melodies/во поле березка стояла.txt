@@ -17,4 +17,4 @@ NOTE_E4, PAUSE, NOTE_F4, PAUSE, NOTE_G4, PAUSE, NOTE_F4, PAUSE, NOTE_F4, PAUSE, 
 400, 30, 100, 30, 300, 30, 100, 30, 100, 30, 300, 100,
 
 Конвертированная мелодия для клавиш:
-y y y y tr r ew y y i y t t r r ew e r t r r ew e r t r r ew 
+пока нет :(
