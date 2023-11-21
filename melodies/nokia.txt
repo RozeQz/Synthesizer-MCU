@@ -1,0 +1,14 @@
+Мелодия:
+NOTE_E5, NOTE_D5, NOTE_F4_SHARP, NOTE_G4_SHARP,
+NOTE_C5_SHARP, NOTE_B4, NOTE_D4, NOTE_E4,
+NOTE_B4, NOTE_A4, NOTE_C4_SHARP, NOTE_E4, 
+NOTE_A4,
+
+Длительность нот:
+400, 400, 200, 200,
+400, 400, 200, 200,
+400, 400, 200, 200,
+800,
+
+Конвертированная мелодия для клавиш:
+ppoo5699uuweuuyy2eyyyy
