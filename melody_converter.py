@@ -232,6 +232,7 @@ def convert_song_from_notes_to_keys(filepath: str, newfile: str) -> None:
 
     with open(newfile, "w", encoding="utf-8") as file:
         for note in notes:
+            note = convert_note_to_SHARP_view(note)
             file.write(convert_note_to_key(note))
 
 
