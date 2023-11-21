@@ -53,6 +53,7 @@ def convert_key_to_note(key: str) -> str:
     '''
     Конвертирует клавишу в соответствующую ноту.
     '''
+    # Первая октава
     if key == 'q':
         return 'NOTE_C4'
     if key == '2':
@@ -77,6 +78,7 @@ def convert_key_to_note(key: str) -> str:
         return 'NOTE_A4_SHARP'
     if key == 'u':
         return 'NOTE_B4'
+    # Вторая октава
     if key == 'i':
         return 'NOTE_C5'
     if key == '9':
@@ -95,6 +97,37 @@ def convert_key_to_note(key: str) -> str:
         return 'NOTE_G5'
     if key == "\\":
         return "NOTE_G5_SHARP"
+    if key == '.':
+        return "NOTE_A5"
+    if key == ';':
+        return "NOTE_A5_SHARP"
+    if key == '/':
+        return "NOTE_B5"
+    # Малая октава
+    if key == 'z':
+        return 'NOTE_C3'
+    if key == 's':
+        return 'NOTE_C3_SHARP'
+    if key == 'x':
+        return 'NOTE_D3'
+    if key == 'd':
+        return 'NOTE_D3_SHARP'
+    if key == 'c':
+        return 'NOTE_E3'
+    if key == 'v':
+        return 'NOTE_F3'
+    if key == 'g':
+        return 'NOTE_F3_SHARP'
+    if key == 'b':
+        return 'NOTE_G3'
+    if key == 'h':
+        return 'NOTE_G3_SHARP'
+    if key == 'n':
+        return 'NOTE_A3'
+    if key == 'j':
+        return 'NOTE_A3_SHARP'
+    if key == 'm':
+        return 'NOTE_B3'
 
     return 'PAUSE'
 
@@ -103,6 +136,7 @@ def convert_note_to_key(key: str) -> str:
     '''
     Конвертирует ноту в соответствующую клавишу.
     '''
+    # Первая октава
     if key == 'NOTE_C4':
         return 'q'
     if key == 'NOTE_C4_SHARP':
@@ -127,6 +161,7 @@ def convert_note_to_key(key: str) -> str:
         return '7'
     if key == 'NOTE_B4':
         return 'u'
+    # Вторая октава
     if key == 'NOTE_C5':
         return 'i'
     if key == 'NOTE_C5_SHARP':
@@ -145,6 +180,37 @@ def convert_note_to_key(key: str) -> str:
         return ']'
     if key == 'NOTE_G5_SHARP':
         return "\\"
+    if key == 'NOTE_A5':
+        return "."
+    if key == 'NOTE_A5_SHARP':
+        return ";"
+    if key == 'NOTE_B5':
+        return "/"
+    # Малая октава
+    if key == 'NOTE_C3':
+        return 'z'
+    if key == 'NOTE_C3_SHARP':
+        return 's'
+    if key == 'NOTE_D3':
+        return 'x'
+    if key == 'NOTE_D3_SHARP':
+        return 'd'
+    if key == 'NOTE_E3':
+        return 'c'
+    if key == 'NOTE_F3':
+        return 'v'
+    if key == 'NOTE_F3_SHARP':
+        return 'g'
+    if key == 'NOTE_G3':
+        return 'b'
+    if key == 'NOTE_G3_SHARP':
+        return 'h'
+    if key == 'NOTE_A3':
+        return 'n'
+    if key == 'NOTE_A3_SHARP':
+        return 'j'
+    if key == 'NOTE_B3':
+        return 'm'
 
     return ' '
 

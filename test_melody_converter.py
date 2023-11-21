@@ -129,7 +129,7 @@ class TestMelodyConverter(unittest.TestCase):
         testfile_1 = 'test_file_1.txt'
 
         with open(testfile_1, "w", encoding="utf-8") as file:
-            file.write("q2w3er5t6y7ui9o0p[=]\\")
+            file.write("q2w3er5t6y7ui9o0p[=]\\.;/zsxdcvgbhnjm")
 
         testfile_2 = 'test_file_2.txt'
 
@@ -144,7 +144,10 @@ class TestMelodyConverter(unittest.TestCase):
                  "NOTE_F4, NOTE_F4_SHARP, NOTE_G4, NOTE_G4_SHARP, NOTE_A4, " +\
                  "NOTE_A4_SHARP, NOTE_B4, NOTE_C5, NOTE_C5_SHARP, NOTE_D5, " +\
                  "NOTE_D5_SHARP, NOTE_E5, NOTE_F5, NOTE_F5_SHARP, NOTE_G5, " +\
-                 "NOTE_G5_SHARP"
+                 "NOTE_G5_SHARP, NOTE_A5, NOTE_A5_SHARP, NOTE_B5, NOTE_C3, " +\
+                 "NOTE_C3_SHARP, NOTE_D3, NOTE_D3_SHARP, NOTE_E3, NOTE_F3, " +\
+                 "NOTE_F3_SHARP, NOTE_G3, NOTE_G3_SHARP, NOTE_A3, " +\
+                 "NOTE_A3_SHARP, NOTE_B3"
 
         self.assertEqual(content, result)
 
@@ -160,7 +163,10 @@ class TestMelodyConverter(unittest.TestCase):
                  "NOTE_F4, NOTE_F4_SHARP, NOTE_G4, NOTE_G4_SHARP, NOTE_A4, " +\
                  "NOTE_A4_SHARP, NOTE_B4, NOTE_C5, NOTE_C5_SHARP, NOTE_D5, " +\
                  "NOTE_D5_SHARP, NOTE_E5, NOTE_F5, NOTE_F5_SHARP, NOTE_G5, " +\
-                 "NOTE_G5_SHARP"
+                 "NOTE_G5_SHARP, NOTE_A5, NOTE_A5_SHARP, NOTE_B5, NOTE_C3, " +\
+                 "NOTE_C3_SHARP, NOTE_D3, NOTE_D3_SHARP, NOTE_E3, NOTE_F3, " +\
+                 "NOTE_F3_SHARP, NOTE_G3, NOTE_G3_SHARP, NOTE_A3, " +\
+                 "NOTE_A3_SHARP, NOTE_B3"
 
         with open(testfile_1, "w", encoding="utf-8") as file:
             file.write(melody)
@@ -174,7 +180,7 @@ class TestMelodyConverter(unittest.TestCase):
         with open(testfile_2, "r", encoding="utf-8") as file:
             content = file.read()
 
-        self.assertEqual(content, "q2w3er5t6y7ui9o0p[=]\\")
+        self.assertEqual(content, "q2w3er5t6y7ui9o0p[=]\\.;/zsxdcvgbhnjm")
 
         os.remove(testfile_2)
 
